@@ -2,6 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "MSProgressHUD"
   s.version      = "1.0.0"
+  s.swift_version= '4.0'
   s.summary      = "A clean and lightweight progress HUD by Swift for your iOS and tvOS app"
   s.homepage     = 'https://github.com/zxhkit/SwiftProgressHUD'
   s.license      = "MIT"
@@ -12,5 +13,6 @@ Pod::Spec.new do |s|
   s.resources    = "MSProgressHUD/MSProgressHUD/MSProgressHUD/images.bundle"
   s.framework    = "UIKit"
   s.requires_arc = true
+
 
 end
